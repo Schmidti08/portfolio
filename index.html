@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tjorben Schmidt</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,300;0,14..32,400;0,14..32,500;0,14..32,600;1,14..32,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <span class="nav-name">Tjorben Schmidt</span>
+    <a href="mailto:tjorben.schmidt@icloud.com" class="nav-cta">Kontakt aufnehmen</a>
+  </nav>
+
+  <header>
+    <div class="hero-text">
+      <h1>Tjorben Schmidt</h1>
+      <p class="hero-meta">Abiturient 2027 &nbsp;·&nbsp; LK Mathematik &amp; Informatik &nbsp;·&nbsp; Bielefeld</p>
+      <p class="hero-body">Neben der Schule baue ich KI-Systeme, die echte Probleme lösen. Ich programmiere in Python und Java, arbeite mit modernen ML-Frameworks und erschließe mir neue Technologien eigenständig.</p>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="projekte">
+      <h2>Projekte</h2>
+
+      <div class="project">
+        <div class="project-meta">
+          <span class="project-year">2026 &ndash; laufend</span>
+          <span class="project-tag">KI &amp; Computer Vision</span>
+        </div>
+        <h3>Drohnenerkennungssystem</h3>
+        <p>Echtzeit-Erkennung und Klassifizierung von Flugobjekten in Videodaten. Ich habe ein YOLOv8-Modell auf einen spezialisierten Datensatz fine-getuned, sodass es auf normaler Consumer-Hardware Drohnen in Echtzeit klassifiziert und Trajektorien verfolgt. Das Projekt entstand vollständig eigenständig und zeigt meine Fähigkeit, mir neue Technologien selbst zu erschließen.</p>
+        <div class="project-stack">
+          <span>Python</span>
+          <span>YOLOv8</span>
+          <span>OpenCV</span>
+          <span>PyTorch</span>
+          <span>NumPy</span>
+        </div>
+        <img src="Bilder/drohnen-demo.png" alt="Drohnenerkennungssystem – YOLOv8 Echtzeit-Demo" class="project-img" />
+        <a href="https://github.com/Schmidti08/drone-detection" target="_blank" class="project-link">GitHub ansehen &rarr;</a>
+      </div>
+
+      <div class="project">
+        <div class="project-meta">
+          <span class="project-year">2026</span>
+          <span class="project-tag">Softwareentwicklung</span>
+        </div>
+        <h3>Kniffel</h3>
+        <p>Vollständige Implementierung des Würfelspiels Kniffel im Rahmen meiner Facharbeit im Informatik-Leistungskurs. Das Programm umfasst Spiellogik, Auswertungsregeln und eine Benutzeroberfläche, umgesetzt in objektorientiertem Java.</p>
+        <div class="project-stack">
+          <span>Java</span>
+          <span>OOP</span>
+          <span>Spiellogik</span>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="project-meta">
+          <span class="project-year">2026</span>
+          <span class="project-tag">CAD &amp; Rapid Prototyping</span>
+        </div>
+        <h3>CAD-Konstruktion &amp; 3D-Druck</h3>
+        <p>Eigenständige Konstruktion von Bauteilen in Solid Edge und anschließende Fertigung via FDM-3D-Druck. Dazu gehören ein selbstentworfener Handyständer sowie weitere Modelle — vom ersten Skizze im CAD bis zum fertigen Druck.</p>
+        <div class="project-stack">
+          <span>Solid Edge</span>
+          <span>FDM 3D-Druck</span>
+          <span>CAD</span>
+          <span>Rapid Prototyping</span>
+        </div>
+        <div class="project-gallery">
+          <img src="Bilder/Bilder 3D-Druck/IMG_6848.jpg" alt="CAD-Assembly Porsche 911 Silhouette in Solid Edge" class="project-img gallery-wide" />
+          <img src="Bilder/Bilder 3D-Druck/IMG_7014.jpg" alt="CAD-Modell Handyständer in Solid Edge" class="project-img" />
+          <img src="Bilder/Bilder 3D-Druck/IMG_7015.jpg" alt="CAD-Modell Porsche Schriftzug in Solid Edge" class="project-img" />
+        </div>
+      </div>
+
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-block">
+        <div class="skill-row">
+          <span class="skill-label">Programmierung</span>
+          <span class="skill-list">Python &nbsp;&nbsp; Java &nbsp;&nbsp; C++ &nbsp;&nbsp; Git</span>
+        </div>
+        <div class="skill-row">
+          <span class="skill-label">KI &amp; ML</span>
+          <span class="skill-list">YOLOv8 &nbsp;&nbsp; PyTorch &nbsp;&nbsp; Computer Vision &nbsp;&nbsp; OpenCV &nbsp;&nbsp; NumPy</span>
+        </div>
+        <div class="skill-row">
+          <span class="skill-label">Werkzeuge</span>
+          <span class="skill-list">CAD (Solid Edge) &nbsp;&nbsp; FDM 3D-Druck &nbsp;&nbsp; Cursor</span>
+        </div>
+        <div class="skill-row">
+          <span class="skill-label">Sprachen</span>
+          <span class="skill-list">Deutsch (Muttersprache) &nbsp;&nbsp; Englisch (B2)</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="kontakt">
+    <div class="footer-inner">
+      <p class="footer-heading">Kontakt</p>
+      <p class="footer-sub">Offen für Gespräche rund ums duale Studium KI, Projekte und Kollaborationen.</p>
+      <div class="footer-links">
+        <a href="mailto:tjorben.schmidt@icloud.com">tjorben.schmidt@icloud.com</a>
+        <a href="https://github.com/Schmidti08" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/USERNAME" target="_blank">LinkedIn</a>
+      </div>
+      <p class="footer-copy">Tjorben Schmidt &copy; 2026</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
